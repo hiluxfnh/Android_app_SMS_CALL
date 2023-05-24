@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message App"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_margin="10sp"
+        android:background="@color/purple_200"
+        android:padding="15sp"
+        />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:hint="Enter Number"
+        android:textColorHint="@color/gray_500"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="20sp"
+        android:hint="Enter the Message"
+        android:textColorHint="@color/gray_500"
+        android:id="@+id/message"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30sp"
+        android:layout_gravity="center"
+        android:text="Send Sms"
+        android:id="@+id/sms"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:layout_gravity="center"
+        android:id="@+id/call"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact the Developer"
+        android:layout_margin="10sp"
+        android:layout_gravity="center"
+        android:id="@+id/developer"
+        />
+</LinearLayout>
