@@ -23,6 +23,7 @@ To get started with this project, follow the instructions below:
 
 ```bash
 git clone https://github.com/your-username/repository-name.git
+```
 
 2. Open the project in Android Studio.
 
