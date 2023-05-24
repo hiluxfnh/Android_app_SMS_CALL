@@ -22,7 +22,7 @@ To get started with this project, follow the instructions below:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/repository-name.git
+https://github.com/hiluxfnh/Android_app_SMS_CALL.git
 ```
 
 2. Open the project in Android Studio.
